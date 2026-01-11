@@ -6,3 +6,6 @@ psycopg[binary]==3.3.2
 python-dotenv==1.0.1
 
 # API
+fastapi
+uvicorn[standard]
+pydantic
