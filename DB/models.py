@@ -3,7 +3,7 @@ from sqlalchemy import Column, String, Text, Integer
 
 Base = declarative_base()
 """
-Data Model(DB資料表的模型)
+DB TABLE Model
 """
 
 class Job(Base):
@@ -24,5 +24,4 @@ class Job(Base):
     workingtime = Column(String(500), comment="上班時間")
     skill = Column(String(500), comment="所需技能")
     link = Column(String(500), comment="應徵連結")
-
 
