@@ -74,5 +74,5 @@ def get_all_jobsList(db = Depends(get_db)):
         Job.name,
         Job.addr,
         Job.salary
-    ).all()
+    ).order_by(Job.id.asc())
     return jobs
