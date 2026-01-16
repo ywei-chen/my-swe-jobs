@@ -9,7 +9,6 @@ from DB.models import Job
 Jobs API
 職缺資料相關的 API 端點
 """
-
 app = FastAPI(title="Job_API", description="Job_DATA")
 
 app.add_middleware(
